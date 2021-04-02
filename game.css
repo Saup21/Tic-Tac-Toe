@@ -1,0 +1,77 @@
+/* ############ Normal View ########### */
+
+* {
+    margin: none;
+    padding: none;
+}
+
+body {
+    background: url("space.gif") no-repeat center center fixed;
+    background-size: cover;
+}
+
+div.instructions {
+    display: block;
+    text-align: center;
+}
+
+div.instructions h1 {
+    margin: 16px 0px 25px;
+    font-size: 50px;
+    color: #ffd700;
+}
+
+div.instructions p {
+    font-size: 16px;
+    color: #ff69b4;
+    font-weight: 600;
+    line-height: 8px;
+    font-family: fantasy;
+}
+
+div.game {
+    text-align: center;
+}
+
+.game input {
+    width: 70px;
+    height: 70px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    text-align: center;
+    color: #ff69b4;
+    font-size: 58px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.res button {
+    padding: 8px;
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+}
+
+.res button:hover {
+    background-color: #191970;
+    color: white;
+}
+
+.tow p#print {
+    text-align: center;
+    font-size: 18px;
+    color: #ff69b4;
+    font-weight: 600;
+    font-family: fantasy;
+}
+
+/* ############# Mobile ############# */
+@media screen and (max-width: 600px) {
+
+    body {
+        background: url("ice.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
+
+}
