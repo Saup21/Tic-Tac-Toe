@@ -67,11 +67,22 @@ div.game {
 }
 
 /* ############# Mobile ############# */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 870px) {
 
     body {
-        background: url("ice.jpg") no-repeat center center fixed;
+        background: url("mob.jpg") no-repeat center center fixed;
         background-size: cover;
     }
 
+    div.instructions p {
+        color: #8b008b;
+    }
+
+    .game input {
+        color: #8b008b;
+    }
+
+    .tow p#print {
+        color: #8b008b;
+    }
 }
