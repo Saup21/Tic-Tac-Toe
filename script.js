@@ -34,7 +34,9 @@ function func() {
         $("#b7").prop('disabled', true);
         $("#b8").prop('disabled', true);
         $("#b9").prop('disabled', true);
-        alert('Player \'X\' won');
+        setTimeout(function () {
+            alert('Player \'X\' won');
+        }, 1000);
     }
     else if (b4=='X'&&b5=='X'&&b6=='X') {
         $("#print").text('Player \'X\' won');
@@ -44,7 +46,9 @@ function func() {
         $("#b7").prop('disabled', true);
         $("#b8").prop('disabled', true);
         $("#b9").prop('disabled', true);
-        alert('Player \'X\' won');
+        setTimeout(function () {
+            alert('Player \'X\' won');
+        }, 1000);
     }
     else if (b7=='X'&&b8=='X'&&b9=='X') {
         $("#print").text('Player \'X\' won');
@@ -54,7 +58,9 @@ function func() {
         $("#b4").prop('disabled', true);
         $("#b5").prop('disabled', true);
         $("#b6").prop('disabled', true);
-        alert('Player \'X\' won');
+        setTimeout(function () {
+            alert('Player \'X\' won');
+        }, 1000);
     }
     else if (b1=='X'&&b4=='X'&&b7=='X') {
         $("#print").text('Player \'X\' won');
@@ -64,7 +70,9 @@ function func() {
         $("#b6").prop('disabled', true);
         $("#b8").prop('disabled', true);
         $("#b9").prop('disabled', true);
-        alert('Player \'X\' won');
+        setTimeout(function () {
+            alert('Player \'X\' won');
+        }, 1000);
     }
     else if (b2=='X'&&b5=='X'&&b8=='X') {
         $("#print").text('Player \'X\' won');
@@ -74,7 +82,9 @@ function func() {
         $("#b6").prop('disabled', true);
         $("#b7").prop('disabled', true);
         $("#b9").prop('disabled', true);
-        alert('Player \'X\' won');
+        setTimeout(function () {
+            alert('Player \'X\' won');
+        }, 1000);
     }
     else if (b3=='X'&&b6=='X'&&b9=='X') {
         $("#print").text('Player \'X\' won');
@@ -84,7 +94,9 @@ function func() {
         $("#b5").prop('disabled', true);
         $("#b7").prop('disabled', true);
         $("#b8").prop('disabled', true);
-        alert('Player \'X\' won');
+        setTimeout(function () {
+            alert('Player \'X\' won');
+        }, 1000);
     }
     else if (b1=='X'&&b5=='X'&&b9=='X') {
         $("#print").text('Player \'X\' won');
@@ -94,7 +106,9 @@ function func() {
         $("#b6").prop('disabled', true);
         $("#b8").prop('disabled', true);
         $("#b7").prop('disabled', true);
-        alert('Player \'X\' won');
+        setTimeout(function () {
+            alert('Player \'X\' won');
+        }, 1000);
     }
     else if (b3=='X'&&b5=='X'&&b7=='X') {
         $("#print").text('Player \'X\' won');
@@ -104,7 +118,9 @@ function func() {
         $("#b6").prop('disabled', true);
         $("#b8").prop('disabled', true);
         $("#b9").prop('disabled', true);
-        alert('Player \'X\' won');
+        setTimeout(function () {
+            alert('Player \'X\' won');
+        }, 1000);
     }
     else if (b1=='O'&&b2=='O'&&b3=='O') {
         $("#print").text('Player \'O\' won');
@@ -114,7 +130,9 @@ function func() {
         $("#b7").prop('disabled', true);
         $("#b8").prop('disabled', true);
         $("#b9").prop('disabled', true);
-        alert('Player \'O\' won');
+        setTimeout(function () {
+            alert('Player \'O\' won');
+        }, 1000);
     }
     else if (b4=='O'&&b5=='O'&&b6=='O') {
         $("#print").text('Player \'O\' won');
@@ -124,7 +142,9 @@ function func() {
         $("#b7").prop('disabled', true);
         $("#b8").prop('disabled', true);
         $("#b9").prop('disabled', true);
-        alert('Player \'O\' won');
+        setTimeout(function () {
+            alert('Player \'O\' won');
+        }, 1000);
     }
     else if (b7=='O'&&b8=='O'&&b9=='O') {
         $("#print").text('Player \'O\' won');
@@ -134,7 +154,9 @@ function func() {
         $("#b4").prop('disabled', true);
         $("#b5").prop('disabled', true);
         $("#b6").prop('disabled', true);
-        alert('Player \'O\' won');
+        setTimeout(function () {
+            alert('Player \'O\' won');
+        }, 1000);
     }
     else if (b1=='O'&&b4=='O'&&b7=='O') {
         $("#print").text('Player \'O\' won');
@@ -144,7 +166,9 @@ function func() {
         $("#b6").prop('disabled', true);
         $("#b8").prop('disabled', true);
         $("#b9").prop('disabled', true);
-        alert('Player \'O\' won');
+        setTimeout(function () {
+            alert('Player \'O\' won');
+        }, 1000);
     }
     else if (b2=='O'&&b5=='O'&&b8=='O') {
         $("#print").text('Player \'O\' won');
@@ -154,7 +178,9 @@ function func() {
         $("#b6").prop('disabled', true);
         $("#b7").prop('disabled', true);
         $("#b9").prop('disabled', true);
-        alert('Player \'O\' won');
+        setTimeout(function () {
+            alert('Player \'O\' won');
+        }, 1000);
     }
     else if (b3=='O'&&b6=='O'&&b9=='O') {
         $("#print").text('Player \'O\' won');
@@ -164,7 +190,9 @@ function func() {
         $("#b5").prop('disabled', true);
         $("#b7").prop('disabled', true);
         $("#b8").prop('disabled', true);
-        alert('Player \'O\' won');
+        setTimeout(function () {
+            alert('Player \'O\' won');
+        }, 1000);
     }
     else if (b1=='O'&&b5=='O'&&b9=='O') {
         $("#print").text('Player \'O\' won');
@@ -174,7 +202,9 @@ function func() {
         $("#b6").prop('disabled', true);
         $("#b8").prop('disabled', true);
         $("#b7").prop('disabled', true);
-        alert('Player \'O\' won');
+        setTimeout(function () {
+            alert('Player \'O\' won');
+        }, 1000);
     }
     else if (b3=='O'&&b5=='O'&&b7=='O') {
         $("#print").text('Player \'O\' won');
@@ -184,7 +214,9 @@ function func() {
         $("#b6").prop('disabled', true);
         $("#b8").prop('disabled', true);
         $("#b9").prop('disabled', true);
-        alert('Player \'O\' won');
+        setTimeout(function () {
+            alert('Player \'O\' won');
+        }, 1000);
     }
     else if ((b1 == 'X' || b1 == 'O') && (b2 == 'X'
     || b2 == 'O') && (b3 == 'X' || b3 == 'O') &&
@@ -193,7 +225,9 @@ function func() {
     (b7 == 'X' || b7 == 'O') && (b8 == 'X' ||
     b8 == 'O') && (b9 == 'X' || b9 == 'O')) {
         $("#print").text('Match Tie');
-        alert('Match Tie');
+        setTimeout(function() {
+            alert('Match Tie');
+        }, 1000);
     }
     else {
         if (flag==1) {
